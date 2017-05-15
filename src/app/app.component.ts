@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { NavbarComponent } from './navbar/navbar.component';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { AppRoutingModule, routingComponents } from "app/app-routing.module";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'My first angular2 component';
 }
